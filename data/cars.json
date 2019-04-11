@@ -1,10 +1,10 @@
 {
-	"img1":"assets/car1",
-	"img2":"assets/car2",
-	"img3":"assets/car3",
-	"img4":"assets/car4",
-	"img5":"assets/car5",
-	"img6":"assets/car6",
+	"img1":"assets/car1.png",
+	"img2":"assets/car2.png",
+	"img3":"assets/car3.png",
+	"img4":"assets/car4.png",
+	"img5":"assets/car5.png",
+	"img6":"assets/car6.png",
 	"width":100,
 	"height":100
 }
