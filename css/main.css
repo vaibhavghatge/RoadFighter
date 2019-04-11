@@ -1,0 +1,101 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.showdialogs{
+    transition: 4s;
+    display: initial !important;
+}
+h1{
+	color:white;
+	text-align:center;
+	font-size:3em;
+}
+
+button{
+	font-size:2em;
+	color:white;
+	background: red;
+	border:1px sold blue;
+	border-radius:25px;
+	padding:3%;
+	width: 200px;
+}
+.smallbutton{
+	font-size:1em;
+	color:white;
+	background: red;
+	border:1px sold blue;
+	border-radius:25px;
+
+	width: 200px;
+}
+
+#dialog {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0%;
+    left: 42.5%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: red;
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    transition: 2s;
+    display: none;
+}
+
+#dialog-menu{
+    position: absolute;
+    top : 45%;
+    left: 28%;
+    width: 40%;
+    height: 20%;
+    margin: 5% 2%;
+    padding: 4% 0;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 10%;
+    box-shadow: darkslategray;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 100;
+    display: none;
+}
+
+#dialog-menu button{
+    background-color: #333;
+    border-style: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #fff;
+    font: 20px monospace;
+}
+
+#cheatbox{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25%;
+    background-color: #fff;
+}
+
+#cheatbox input{
+    border-style: none;
+    width: 90%;
+    margin: 0% 5% ;
+    color: #000;
+    font: 22px monospace;
+    font-weight: 600;
+    outline-style: none;
+}
